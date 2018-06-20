@@ -22,9 +22,9 @@ module.exports = function(robot) {å
 
 
   //  Example
-  //  robot.hear(/javascript/i, function(msg) {
-  //    return msg.send("I love writing code!");
-  //  });
+   robot.hear(/javascript/i, function(msg) {
+     return msg.send("I love writing code!");
+   });
 }
 
 /************************************
