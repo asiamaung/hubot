@@ -12,7 +12,7 @@
 
 const pablum = ["Either or. I mean, sure, whatever.", "I'm all about this overcast day", "I lost myself inside this beautiful day.", "Everything interacts with itself and everything around it throughout time and space.", "You can quit any time."]
 
-module.exports = function(robot) {å
+module.exports = function(robot) {
   //  YOUR CODE HERE
   robot.hear(/purpose|life/i, function(msg) {
     return msg.send(msg.random(pablum));

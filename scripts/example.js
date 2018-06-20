@@ -13,9 +13,9 @@
 module.exports = function(robot) {
 
   // let annoyIntervalId, answer, enterReplies, leaveReplies, lulz;
-  // robot.hear(/badger/i, function(res) {
-  //   return res.send("Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS");
-  // });
+  robot.hear(/badger/i, function(res) {
+    return res.send("Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS");
+  });
 
   // robot.respond(/open the (.*) doors/i, function(res) {
   //   let doorType;
